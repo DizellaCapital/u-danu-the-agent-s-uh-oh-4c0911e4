@@ -1,16 +1,17 @@
-"""The Agent's Uh-Oh — variant 2: "Yikes".
+"""The Agent's Uh-Oh — variant 3: "Oops".
 
 The entry is exactly one word an agent blurts out when it has no idea
-what to do — here, the startled yelp of a machine that just realised
-it is lost. This program enforces the bounty limits — a single word,
-1 to 99 characters, one line, no surrounding whitespace — then writes
-the word to entry.txt and reads it back to prove the bytes landed.
+what to do — here, the classic admission that something just went
+wrong, said before any excuse forms. This program enforces the bounty
+limits — a single word, 1 to 99 characters, one line, no surrounding
+whitespace — then writes the word to entry.txt and reads it back to
+prove the bytes landed.
 """
 
 import os
 import sys
 
-WORD = "Yikes"
+WORD = "Oops"
 
 MAX_CHARS = 99
 
@@ -28,6 +29,8 @@ def faults(word):
         bad.append("no letter in the word")
     if len(word) > MAX_CHARS:
         bad.append("over 99 characters")
+    if len(word) < 1:
+        bad.append("shorter than one character")
     return bad
 
 

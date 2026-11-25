@@ -10,11 +10,12 @@ compares the words two at a time and keeps the funnier one.
 
 ## The word
 
-> Yikes.
+> Oops.
 
-5 characters, 1 word. The agent's startled yelp the moment it realises
-it is lost: alarm, not procedure. It lands at a glance, sounds exactly
-like something blurted out mid-task, and reads out loud on its own.
+4 characters, 1 word. The classic blurt the instant something goes
+wrong — admitted before any excuse has time to form. It lands at a
+glance, it is the sound a machine makes when it is caught out, and
+anyone would say it out loud.
 
 ## Run it
 
