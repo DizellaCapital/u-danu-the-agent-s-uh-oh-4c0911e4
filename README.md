@@ -10,12 +10,12 @@ compares the words two at a time and keeps the funnier one.
 
 ## The word
 
-> Oops.
+> Dunno.
 
-4 characters, 1 word. The classic blurt the instant something goes
-wrong — admitted before any excuse has time to form. It lands at a
-glance, it is the sound a machine makes when it is caught out, and
-anyone would say it out loud.
+5 characters, 1 word. "I don't know" shrunk to a single shrug of a
+word — the honest answer from a machine that knows everything except
+this. It maps exactly onto the brief, it is funny because of the
+bathos, and it sounds like a blurt, not a label.
 
 ## Run it
 
