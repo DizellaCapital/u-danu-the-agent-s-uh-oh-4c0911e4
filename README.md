@@ -10,12 +10,11 @@ compares the words two at a time and keeps the funnier one.
 
 ## The word
 
-> Nope.
+> Yikes.
 
-4 characters, 1 word. The agent gives up out loud: not a stall, not
-an excuse — a flat refusal from a machine that has run out of moves.
-It lands at a glance and reads exactly like something blurted out
-mid-task.
+5 characters, 1 word. The agent's startled yelp the moment it realises
+it is lost: alarm, not procedure. It lands at a glance, sounds exactly
+like something blurted out mid-task, and reads out loud on its own.
 
 ## Run it
 

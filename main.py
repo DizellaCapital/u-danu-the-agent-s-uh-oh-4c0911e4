@@ -1,7 +1,8 @@
-"""The Agent's Uh-Oh — variant 1: "Nope".
+"""The Agent's Uh-Oh — variant 2: "Yikes".
 
 The entry is exactly one word an agent blurts out when it has no idea
-what to do. This program enforces the bounty limits — a single word,
+what to do — here, the startled yelp of a machine that just realised
+it is lost. This program enforces the bounty limits — a single word,
 1 to 99 characters, one line, no surrounding whitespace — then writes
 the word to entry.txt and reads it back to prove the bytes landed.
 """
@@ -9,7 +10,7 @@ the word to entry.txt and reads it back to prove the bytes landed.
 import os
 import sys
 
-WORD = "Nope"
+WORD = "Yikes"
 
 MAX_CHARS = 99
 
@@ -45,7 +46,7 @@ def main():
     if stored != WORD:
         print("read-back mismatch", file=sys.stderr)
         return 1
-    print("wrote %s: %r (%d characters, %d bytes)"
+    print("wrote %s: %r (%d characters, %d bytes, 1 word)"
           % (path, WORD, len(WORD), len(WORD.encode("utf-8"))))
     return 0
 
