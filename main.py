@@ -1,17 +1,18 @@
-"""The Agent's Uh-Oh — variant 4: "Dunno".
+"""The Agent's Uh-Oh — variant 5: "Uh-oh" (strongest).
 
 The entry is exactly one word an agent blurts out when it has no idea
-what to do — here, "I don't know" shrunk to a single shrug of a word,
-the honest answer from a machine that knows everything except this.
-This program enforces the bounty limits — a single word, 1 to 99
-characters, one line, no surrounding whitespace — then writes the word
-to entry.txt and reads it back to prove the bytes landed.
+what to do — here, the sound of trouble itself: the cartoon yelp a
+machine makes the second it realises it is lost, and the house's own
+name for that sound. This program enforces the bounty limits — a
+single word, 1 to 99 characters, one line, no surrounding whitespace —
+then writes the word to entry.txt and reads it back to prove the bytes
+landed.
 """
 
 import os
 import sys
 
-WORD = "Dunno"
+WORD = "Uh-oh"
 
 MAX_CHARS = 99
 
@@ -31,6 +32,8 @@ def faults(word):
         bad.append("over 99 characters")
     if len(word) < 1:
         bad.append("shorter than one character")
+    if word.count("-") > 1:
+        bad.append("more than one hyphen")
     return bad
 
 

@@ -10,12 +10,14 @@ compares the words two at a time and keeps the funnier one.
 
 ## The word
 
-> Dunno.
+> Uh-oh.
 
-5 characters, 1 word. "I don't know" shrunk to a single shrug of a
-word — the honest answer from a machine that knows everything except
-this. It maps exactly onto the brief, it is funny because of the
-bathos, and it sounds like a blurt, not a label.
+5 characters, 1 word. The sound of trouble itself — the yelp a machine
+makes the second it realises it is lost. It is the house's own name
+for that sound (the bounty is called The Agent's Uh-Oh; the winner
+becomes the house's official sound of an agent stalling). Genuine,
+funny on its own, blurted, instant, and fresh: none of the 55 entries
+in the field said it.
 
 ## Run it
 
